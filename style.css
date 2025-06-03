@@ -92,3 +92,56 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Style untuk mode terang */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+/* Style untuk mode terang */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+/* Style untuk mode gelap */
+  body.dark-mode {
+    background-color: #333;
+    color: #f2f2f2;
+  }
+  
+  #toggle-mode {
+    position: fixed;
+    bottom: 60px;
+    left: 20px;
+    background-color: #333;
+    color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+/*style article gelap */
+  body.dark-mode #toggle-mode {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  body.dark-mode article {
+    background-color: #333;
+    border: 1px solid #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  body.dark-mode article h2 {
+    color: #f2f2f2;
+  }
+  
+  body.dark-mode article p {
+    color: #ccc;
+  }
+  
+  body.dark-mode .contact-info b {
+    color: #f2f2f2;
+  }
